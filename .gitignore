@@ -1,0 +1,21 @@
+# File: .gitignore
+# Description: Specifies files to be ignored by Git and not uploaded to GitHub.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+pip-selfcheck.json
+
+# TensorFlow/Keras model files
+*.h5
+*.keras
+
+# Operating System files
+.DS_Store
+Thumbs.db
